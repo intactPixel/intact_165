@@ -10,4 +10,5 @@ for x in range(1000,10000):
         if s[x] in a1 and s[x+1] in a1 or s[x] in a0 and s[x+1] in a0:
             fl=False
     if len(sp)==4 and fl==True: k+=1
+
 print(k)
